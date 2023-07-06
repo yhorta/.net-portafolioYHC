@@ -6,3 +6,21 @@ touch helloword.py      ejemplo de un archivo de python
 Para inicializar Git en la carpeta del proyecto
 git init
 
+Cambiar el nombre de la rama principal
+git branch -m main
+
+Ver el contenido del proyecto
+git status
+
+Anadir proyecto
+git add . 		       se anade todo
+git add nombre del proyecto    se añade solo uno
+
+Tomar fotogrfia ddel proyecto
+git commit -m "mensaje que quieras poner"
+
+Ver el commit
+git log
+
+situarnos de una fotografia a otra 
+git checkout nombre del archivo
