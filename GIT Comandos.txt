@@ -1,3 +1,6 @@
+1:03:36
+https://youtu.be/3GymExBkKjE
+
 COMANDOS DE GIT ---control de versiones local
 
 Para crear ficheros desde consola
@@ -22,5 +25,18 @@ git commit -m "mensaje que quieras poner"
 Ver el commit
 git log
 
-situarnos de una fotografia a otra 
+ANTES DE GUARDAR--------------------------------------------------------------------
+ir atras en una fotografia sin hacer commit
 git checkout nombre del archivo
+
+ir a la ultima fotografia
+git reset 
+
+1:05:32
+
+ver log de otra forma
+git log --graph
+==========================================================================================
+En la comfiguracion podemos crear alias para agilizarnos el trabajo y hacer mas facil la escritura ejemplo modificamos log
+
+git config --global alias.tree "log --graph --decorate --all --oneline"
